@@ -1,0 +1,18 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:author: livenow14
+:email: xowjd41@gmail.com
+
+=== 유저 회원가입
+==== 성공
+===== Request
+include::{snippets}/user-signUp/http-request.adoc[]
+
+===== Response
+include::{snippets}/user-signUp/http-response.adoc[]
